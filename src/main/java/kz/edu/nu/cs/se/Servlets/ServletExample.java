@@ -15,7 +15,7 @@ public class ServletExample extends HttpServlet {
         String name = req.getParameter("userName");
         String email = req.getParameter("email");
         String ip = req.getRemoteAddr();
-        System.out.println("ПОШЁЛ НАХ АЛИБ");
+        System.out.println("Poshel nahui");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
