@@ -12,7 +12,7 @@ public class ServletExample extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String name = req.getParameter("userName");
+        String name = req.getParameter("userNameaaaa");
         String email = req.getParameter("email");
         String ip = req.getRemoteAddr();
         System.out.println("Poshel nahui");
