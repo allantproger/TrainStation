@@ -4,5 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-  
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>kz.edu.nu.cs.se.Servlets.ServletExample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/servlet1</url-pattern>
+  </servlet-mapping>
 </web-app>

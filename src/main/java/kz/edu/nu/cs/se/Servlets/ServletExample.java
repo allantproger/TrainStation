@@ -10,12 +10,16 @@ import java.io.IOException;
 @WebServlet(urlPatterns = { "/submit" })
 public class ServletExample extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         String name = req.getParameter("userName");
         String email = req.getParameter("email");
         String ip = req.getRemoteAddr();
         System.out.println("ПОШЁЛ НАХ АЛИБ");
+    }
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        System.out.println("KRASAVCHIK!!");
     }
 }
