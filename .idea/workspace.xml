@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9dfa33f-db90-4370-99b5-18a110efe911" name="Default" comment="Added Spring Data&#10;Added Spring to Project Settings -&gt; Modules&#10;And added Java EE Persistence to frameworks, because Spring Data do not work without it.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/edu/nu/cs/se/Servlets/ServletExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/edu/nu/cs/se/Servlets/ServletExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -248,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571238157856</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Spring Data&#10;Added Spring to Project Settings -&gt; Modules&#10;And added Java EE Persistence to frameworks, because Spring Data do not work without it.">
+      <created>1571250285690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571250285690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
