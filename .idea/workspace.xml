@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9dfa33f-db90-4370-99b5-18a110efe911" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/JPA_2_0_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TrainStation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" afterDir="false" />
-    </list>
+    <list default="true" id="d9dfa33f-db90-4370-99b5-18a110efe911" name="Default" comment="Added Spring Data&#10;Added Spring to Project Settings -&gt; Modules&#10;And added Java EE Persistence to frameworks, because Spring Data do not work without it." />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571234776510</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Spring Data&#10;Added Spring to Project Settings -&gt; Modules&#10;And added Java EE Persistence to frameworks, because Spring Data do not work without it.">
+      <created>1571238062861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571238062861</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
