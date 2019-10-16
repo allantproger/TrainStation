@@ -7,13 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9dfa33f-db90-4370-99b5-18a110efe911" name="Default" comment="Added Spring Data&#10;Added Spring to Project Settings -&gt; Modules&#10;And added Java EE Persistence to frameworks, because Spring Data do not work without it.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrainStation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/byte-buddy-1.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/byte-buddy-agent-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="XML Properties File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +49,10 @@
   </component>
   <component name="ProjectId" id="1SFGhNUUknHTXOrrGDiCVuZAHjD" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -37,9 +62,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.25287357" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -54,7 +79,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SpringTest">
+    <configuration name="SpringTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="TrainStation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kz.edu.nu.cs.se.Servlets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.edu.nu.cs.se.Servlets.SpringTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrainStation" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/TrainStation_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -190,6 +228,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.TrainStation" />
+      <item itemvalue="Spring Boot.SpringTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -245,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571239150440</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Spring Data&#10;Added Spring to Project Settings -&gt; Modules&#10;And added Java EE Persistence to frameworks, because Spring Data do not work without it.">
+      <created>1571240159183</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571240159183</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Spring Data&#10;Added Spring to Project Settings -&gt; Modules&#10;And added Java EE Persistence to frameworks, because Spring Data do not work without it.">
+      <created>1571240198681</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571240198681</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
