@@ -13,7 +13,7 @@ public class ServletExample extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doGet(req, resp);
 
-        String name = req.getParameter("userName");
+        String name = req.getParameter("userNameaaaa");
         String email = req.getParameter("email");
         String ip = req.getRemoteAddr();
         System.out.println("ПОШЁЛ НАХ АЛИБ");
