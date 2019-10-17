@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: user
+Build-Jdk: 12.0.2
+Implementation-Title: registration-login-springboot-security-thymeleaf
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: net.guides.springboot
+Main-Class: ${start-class}
+

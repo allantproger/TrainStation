@@ -6,111 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9dfa33f-db90-4370-99b5-18a110efe911" name="Default" comment="Added Spring Data&#10;Added Spring to Project Settings -&gt; Modules&#10;And added Java EE Persistence to frameworks, because Spring Data do not work without it.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/edu/nu/cs/se/Servlets/ServletExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/edu/nu/cs/se/Servlets/SpringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/classes/META-INF/TrainStation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/classes/kz/edu/nu/cs/se/Servlets/SpringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/HikariCP-3.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/accessors-smart-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/android-json-0.0.20131108.vaadin1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/asm-5.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/assertj-core-3.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/byte-buddy-1.9.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/byte-buddy-agent-1.9.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/hamcrest-library-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.4.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-core-5.3.11.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.17.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.9.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.23.2-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/javax.transaction-api-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/json-path-2.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/json-smart-2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jsonassert-1.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/mockito-core-2.23.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/objenesis-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aspects-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-data-jpa-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-test-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-test-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-test-autoconfigure-2.1.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.1.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-jpa-2.1.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-orm-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-test-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-9.0.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-9.0.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-9.0.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/lib/xmlunit-core-2.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TrainStation-0.0.1-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/edu/nu/cs/se/Servlets/ServletExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kz/edu/nu/cs/se/Servlets/SpringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/databind-0.0.1-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/databind-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/databind-0.0.1-SNAPSHOT/WEB-INF/classes/kz/edu/nu/cs/se/HelperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/databind-0.0.1-SNAPSHOT/WEB-INF/classes/kz/edu/nu/cs/se/MyServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/databind-0.0.1-SNAPSHOT/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/databind-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/databind-0.0.1-SNAPSHOT/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="d9dfa33f-db90-4370-99b5-18a110efe911" name="Default" comment="Made it all to work!!!!" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571152048106</updated>
       <workItem from="1571152050005" duration="1310000" />
-      <workItem from="1571327337036" duration="834000" />
+      <workItem from="1571327337036" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="Added Spring Data&#10;Added Spring to Project Settings -&gt; Modules&#10;And added Java EE Persistence to frameworks, because Spring Data do not work without it.">
       <created>1571152580513</created>
@@ -314,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571240198681</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Made it all to work!!!!">
+      <created>1571328330667</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571328330668</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +238,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Spring Data&#10;Added Spring to Project Settings -&gt; Modules&#10;And added Java EE Persistence to frameworks, because Spring Data do not work without it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Spring Data&#10;Added Spring to Project Settings -&gt; Modules&#10;And added Java EE Persistence to frameworks, because Spring Data do not work without it." />
+    <MESSAGE value="Made it all to work!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made it all to work!!!!" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
