@@ -15,6 +15,7 @@ public class User {
     private String lastName;
     private String email;
     private String password;
+    private String birthDate;
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(
@@ -28,18 +29,20 @@ public class User {
     public User() {
     }
 
-    public User(String firstName, String lastName, String email, String password) {
+    public User(String firstName, String lastName, String email, String password, String birthDate) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.password = password;
+        this.birthDate = birthDate;
     }
 
-    public User(String firstName, String lastName, String email, String password, Collection<Role> roles) {
+    public User(String firstName, String lastName, String email, String password, String birthDate, Collection<Role> roles) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.password = password;
+        this.birthDate = birthDate;
         this.roles = roles;
     }
 
@@ -83,6 +86,14 @@ public class User {
         this.password = password;
     }
 
+    public String getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
+    }
+
     public Collection<Role> getRoles() {
         return roles;
     }
@@ -97,6 +108,7 @@ public class User {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", birthDate='" + birthDate + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + "*********" + '\'' +
                 ", roles=" + roles +

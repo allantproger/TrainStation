@@ -32,6 +32,10 @@ public class UserRegistrationDto {
     @NotEmpty
     private String confirmEmail;
 
+    @NotEmpty
+    private String birthDate;
+
+
     @AssertTrue
     private Boolean terms;
 
@@ -49,6 +53,14 @@ public class UserRegistrationDto {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
     }
 
     public String getPassword() {
