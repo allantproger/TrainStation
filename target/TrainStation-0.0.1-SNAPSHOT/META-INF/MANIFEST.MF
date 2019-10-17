@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Created-By: IntelliJ IDEA
-Built-By: miras
-Build-Jdk: 13
-Implementation-Title: TrainStation Maven Webapp
-Implementation-Version: 0.0.1-SNAPSHOT
-Implementation-Vendor-Id: kz.edu.nu.cs.se
-Main-Class: ${start-class}
-
